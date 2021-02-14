@@ -1,0 +1,41 @@
+.container {
+  width: 22rem;
+  height: 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .formlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 22rem;
+  height: 10rem;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.container .formlist input {
+  padding: 0.2rem;
+}
+
+.container .formlist button {
+  width: 10rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 0.3rem;
+}
+/*# sourceMappingURL=style.css.map */
